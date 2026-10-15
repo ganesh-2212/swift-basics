@@ -7,6 +7,8 @@ print(myTitle)
 let condition1:Bool = true // boolean
 let condition2:Bool = false
 print(condition1)
+print(condition2)
+
 
 //Swift is a type safe language --------
 /*let condition3: String = true
