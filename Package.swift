@@ -10,6 +10,5 @@ let package = Package(
            path: "day02-swift-basics",
            sources: ["variables.swift"]
        ),
-       
    ]
 )
