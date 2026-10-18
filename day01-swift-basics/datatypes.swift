@@ -34,7 +34,7 @@ print(type3)
 print(type4)
 print(type5)
 print(type6)
-print(type7)
+//print(type7)
 
 //var myDate: Date = Date(time) //date
 //print(myDate)
