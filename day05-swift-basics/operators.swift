@@ -1,7 +1,7 @@
 import Playgrounds
 
 #Playground {
-    
+
     var likeCount:Double = 150
     var shareCount:Double = 30
     var viewCount:Double = 10302
