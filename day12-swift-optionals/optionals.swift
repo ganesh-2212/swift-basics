@@ -1,26 +1,36 @@
-
 import Foundation
 
-//Bool
-//var myBool:Bool? = nil
-var myBool:Bool? = true
-print(myBool)
+var userIsPremium: Bool? = nil
+print ("User Premium:", userIsPremium)
 
-var coalescingBool:Bool = myBool ?? false
-print(coalescingBool)
+// Returning an Optional
+func checkUser1() -> Bool? {
+    return userIsPremium
+}
 
-//String
-//var myString:String? = nil
-var myString:String? = "Hello, ganesh!"
-print(myString)
+// Nil Coalescing
+func checkUser2() -> Bool {
+    return userIsPremium ?? false
+}
 
-var coalescingString:String = myString ?? "Enter string"
-print (coalescingString)
+// Optional Binding with else
+func checkUser3() -> Bool {
+    if let newValue = userIsPremium {
+        return newValue
+    } else {
+        return false
+    }
+}
 
-//Int
-//var myInt:Int? = nil
-var myInt:Int? = 100
-print(myInt)
+// Optional Binding without else
+func checkUser4() -> Bool {
+    if let newValue = userIsPremium {
+        return newValue
+    }
+    return false
+}
 
-var coalescingInt:Int = myInt ?? 0
-print(coalescingInt)
+print(checkUser1())
+print(checkUser2())
+print(checkUser3())
+print(checkUser4())
