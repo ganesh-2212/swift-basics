@@ -1,4 +1,3 @@
-
 // variadic parameters
 
 // this allows a func to accept multiple values through a single parameter
