@@ -1,4 +1,3 @@
-
 # Swift Basics
 
 ## Day 19 – Topics Learned
@@ -19,3 +18,5 @@
 - Optional Binding (`guard let`)
 - Multiple Optional Bindings (`if let`)
 - Multiple Optional Bindings (`guard let`)
+- Nested Optional Bindings
+- Shadowing in Optional Binding

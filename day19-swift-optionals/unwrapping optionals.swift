@@ -75,3 +75,21 @@ func details(){
 details()
 
 
+//nested optional bidings
+
+var item:String? = "Xbox"
+
+if let product = item{
+    if let newProduct = product.first{
+        print(newProduct)
+    }
+}
+
+
+//shadowing in optional binding
+
+var oldItem:Int? = 5
+
+if let oldItem = oldItem{
+    print(oldItem)
+}
