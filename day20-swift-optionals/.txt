@@ -1,0 +1,31 @@
+//forced unwrapping
+//var myAge:Int? = nil    //runtime crash
+var myAge:Int? = 27
+print(myAge!)
+
+var name1:String? = "ganesh"
+let myName = name1!.count
+print(myName)
+
+
+// optional chaining - using "?"
+var username:String? = "Ganesh"
+let name = username?.count
+print(name)
+
+var username1:String? = nil
+let name2 = username1?.count
+print(name2)
+
+
+/* forced unwrapping - extract value from optional using ! */
+// -- crashes if it is nill
+// -- forcefully extract value
+
+/* optional chaining - extract/access properties methods or subscript of Optional value */
+// -- no crash if it is nill
+// -- safely access value
+
+
+
+
