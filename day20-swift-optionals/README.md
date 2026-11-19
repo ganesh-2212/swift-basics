@@ -1,4 +1,3 @@
-
 # Swift Basics
 
 ## Day 20 – Topics Learned
@@ -16,3 +15,11 @@
 - Optional Elements in Arrays (`[Int?]`)
 - Optional Arrays (`[Int]?`)
 - Arrays with Optional Elements and Optional Arrays (`[Int?]?`)
+- Optional Parameters in Functions
+- Passing `nil` to Function Parameters
+- Returning Optional Values from Functions
+- Unwrapping Optional Return Values
+- Optional Binding (`if let`) with Function Return Values
+- Nil-Coalescing (`??`) with Function Return Values
+- Optional Binding Inside Functions
+- Using `guard let` Inside Functions
